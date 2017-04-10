@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆角图片的属性-->
+    <declare-styleable name="RadarView">
+        <attr name="startColor" format="color"/>
+        <attr name="endColor" format="color"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="circleCount" format="integer"/>
+        <attr name="lineColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CreateCircleItem">
+        <attr name="CreateTitle" format="reference"/>
+        <attr name="CreateEditText" format="boolean"/>
+        <attr name="EditInputType" format="enum">
+            <enum name="phone" value="0"></enum>
+            <enum name="email" value="1"></enum>
+            <enum name="text" value="2"></enum>
+        </attr>
+        <attr name="CreateText" format="boolean"/>
+        <attr name="CreateImage" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="recordView">
+        <attr name="hintText" format="string"/>
+        <attr name="playHintText" format="string"/>
+        <attr name="timeTextColor" format="reference"/>
+        <attr name="hintTextSize" format="dimension"/>
+        <attr name="middleLineHeight" format="dimension"/>
+        <attr name="progressSrc" format="reference"/>
+        <attr name="middleLineColor" format="reference"/>
+        <attr name="unit" format="string"/>
+        <attr name="model">
+            <enum name="record_model" value="1"/>
+            <enum name="play_model" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
